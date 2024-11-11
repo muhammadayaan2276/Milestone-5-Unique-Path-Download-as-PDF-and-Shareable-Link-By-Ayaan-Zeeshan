@@ -1,0 +1,137 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 3px;
+    padding: 0%;
+    background-color: antiquewhite;
+}
+
+h1 {
+    text-align: center;
+    color: brown;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color:aqua;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+fieldset {
+    border: 2px solid purple;
+    border-radius: 8px;
+    padding:10px;
+    margin-bottom: 10px;
+    background-color:azure;
+}
+
+legend {
+    font-weight:bold;
+    text-align: left;
+    color: brown;
+}
+
+label {
+    display: inline;
+    margin-top: 8px;
+    color:chocolate;
+}
+
+input,textarea {
+    width: calc(100% - 1px);
+    padding-bottom: 3px;
+    padding-top: 3px;
+    margin-top: 3px;
+    border: 1px solid purple;
+    border-radius: 5px;
+    box-sizing:border-box;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding:5px;
+    background-color:darkkhaki;
+    color: white;
+    border: 2px solid brown;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button:hover {
+    background-color:chocolate;
+}
+
+#resumeOutput {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 5px solid rgb(8, 111, 8);
+    border-radius: 15px;
+    background-color: #a4bba4; /* Softer green tone for a more professional look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    font-family: Arial, sans-serif; 
+}
+
+#resumeOutput h1 {
+    color: rgb(125, 10, 63);
+    font-size: 50px;
+    text-shadow: 0px 0px 8px rgba(17, 91, 26, 0.5);
+    background-color: rgba(255, 235, 205, 0.8); 
+    border: 7px solid peru;
+    border-radius: 50px;
+}
+
+#resumeOutput p {
+    line-height: 1.6;
+    color: #333333; 
+    font-size: 1rem;
+    margin-bottom: 10px;
+    margin-left: 8px;
+    display: block;
+    color: white;
+}
+
+#resumeOutput strong {
+    color: #0a7d33; /* A rich green for emphasis */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#resumeOutput h3 {
+    color: #8B0000; /* Deep crimson red for section headings */
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+}
+
+#resumeOutput .education-output {
+    color: #ffffff; 
+}
+
+#resumeOutput .experience-output {
+    color: #ffffff; 
+   
+}
+
+#resumeOutput .skills-output {
+    color: #ffffff;
+}
+
+.profilePicture {
+    display: block;
+    margin: 0 auto;
+    border: 10px solid brown;
+    box-shadow:  0 0 8px 8px rgba(161, 19, 19, 0.5);
+    border-radius: 500%;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+
